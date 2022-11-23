@@ -30,7 +30,7 @@
                 <div data-stellar-background-ratio="0.4" style="height: 203px"
                      class="b-contact stellar section-texture section-texture_green section-radius">
                     <div class="b-contact__name">Endereço</div>
-                    <div class="b-contact__info">Av. Tapajós, 4591 - São Caetano, Betim</div>
+                    <div class="b-contact__info">Rua Décio Cardoso 196, Bela Vista, Ibirite</div>
                     <div class="b-contact__icon icon-map"></div>
                 </div>
                 <!-- end b-contact-->
