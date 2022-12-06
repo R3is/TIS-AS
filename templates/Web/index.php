@@ -13,7 +13,7 @@
                         </div>
                         <h2 data-width="100%" data-show-transition="left" data-hide-transition="left"
                             data-show-duration="800" data-show-delay="400" data-hide-delay="400"
-                            class="main-slider__title sp-layer">IGREJA ADVENTISTA DO SÉTIMO DIA<br>A CASA DE DEUS</h2>
+                            class="main-slider__title sp-layer">IGREJA BATISTA BELA VISTA<br>A CASA DE DEUS</h2>
                         <div data-width="100%" data-show-transition="left" data-hide-transition="left"
                              data-show-duration="1200" data-show-delay="2000" data-hide-delay="400"
                              class="sp-layer" id="sobre1"><a href="#" style="scr" class="main-slider__btn btn btn-primary">Conheça sobre

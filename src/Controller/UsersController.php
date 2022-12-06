@@ -9,8 +9,6 @@ namespace App\Controller;
  * @property \App\Model\Table\UsersTable $Users
  * @method \App\Model\Entity\User[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
-
-
 class UsersController extends AppController
 {
     /**
@@ -21,6 +19,7 @@ class UsersController extends AppController
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
         parent::beforeFilter($event);
+
         $this->Authentication->allowUnauthenticated(['controller' => 'Users', 'action' => 'login', 'cadastro', 'logout'],['controller' => 'Web', 'action' => 'index']);
     }
 
@@ -43,6 +42,7 @@ class UsersController extends AppController
         $user = $this->Users->get($id, [
             'contain' => [],
         ]);
+
         $this->set(compact('user'));
     }
 
